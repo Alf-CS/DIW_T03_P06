@@ -33,29 +33,3 @@
     /*hemos puesto también un pequeño margen superior de 5 px para diferenciarlo*/
 }
 
-
-/*Estilos del FOOTER con el enlace a GITHUB */
-
-footer {
-    background-color:white;
-    position: sticky;
-    bottom:0px;
-    right:0px;
-    text-align: right;
-    margin:0px;
-    padding: 0px;
-}
-
-footer a {
-    color: lightgray;
-    bottom: 0px;
-    right: 0px;
-  }
-
-
-
-  
-  footer a:hover {
-    font-display:initial;
-    color: blue;
-  }
