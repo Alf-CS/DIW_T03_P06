@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-gap: 0.5rem; /*hueco entre filas y columnas*/
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); 
+        /*tamaño mínimo de 200 px y máximo de 2fr*/
+}
+
+.tarjeta {
+    width: 100%;
+    height: 100%;
+    text-align: center; /* texto centrado*/
+    background-color: grey; /* fondo gris */
+    flex-direction: column;
+    
+}
+
+.tarjeta img {
+    width: 100%; /*la imagen ocupa el 100% de la tarjeta */
+    height: auto;
+}
+
+.contenido {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.boton {
+    width: 90%; /*casi todo el ancho de la tarjeta */
+    margin: 5px auto 1rem; /*margin inferior de 1 rem */
+    /*hemos puesto también un pequeño margen superior de 5 px para diferenciarlo*/
+}
+
+
+/*Estilos del FOOTER con el enlace a GITHUB */
+
+footer {
+    background-color:white;
+    position: sticky;
+    bottom:0px;
+    right:0px;
+    text-align: right;
+    margin:0px;
+    padding: 0px;
+}
+
+footer a {
+    color: lightgray;
+    bottom: 0px;
+    right: 0px;
+  }
+
+
+
+  
+  footer a:hover {
+    font-display:initial;
+    color: blue;
+  }
